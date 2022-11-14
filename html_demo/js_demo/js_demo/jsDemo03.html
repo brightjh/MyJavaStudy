@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+    /*1. == 弱等于
+    * 先比较类型是否相同
+    * 不相同则转换为相同类型，再进行比较
+    *
+    * 2. === 强等于
+    * 先比较类型是否相同
+    * 不相同则直接返回false
+    * 相同再进行比较
+    * */
+
+    var age1 = 20;
+    var age2 = "20";
+
+    console.log(age1 == age2);
+    console.log(age1 === age2)
+
+    /*类型转换
+    *     1.其他类型转为number：
+    *         string: 按字符串的字面值转为数字，如果字面值不是数字，则转为NaN，一般使用parseInt
+    *         bollen: true转为1,false转为0
+    *     2. 其他类型转为boolean
+    *         number: 0转为false,其他转为true
+    *         string: 空字符串转为false,其他转为true
+    *         null: false
+    *         undefined: false
+    * */
+    console.log("-----------string转为number-------------")
+    var str1 = "abc";
+    var str2 = "21";
+    console.log(parseInt(str1))
+    console.log(parseInt(str2))
+
+    console.log("-----------boolean转为number-------------")
+    var flag1 = +true;
+    var flag2 = +false;
+    console.log(parseInt(flag1));
+    console.log(parseInt(flag2));
+
+    console.log("-------其他类型转为boolean----------")
+    console.log("---------number----------")
+    var int1 = 0;
+    if (int1){
+        console.log("true")
+    }else {
+        console.log("false")
+    }
+    console.log("---------string----------")
+    var str = "13121";
+    if (str){
+        console.log("true")
+    }else {
+        console.log("false")
+    }
+    console.log("---------null and undefined----------")
+    var obj = null;
+    if (obj){
+        console.log("true")
+    }else {
+        console.log("false")
+    }
+    var ud = undefined;
+    if (ud){
+        console.log("true")
+    }else {
+        console.log("false")
+    }
+
+
+
+
+
+</script>
+
+</body>
+</html>

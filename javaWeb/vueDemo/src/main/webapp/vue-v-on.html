@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+  <input v-model="message">
+  <input type="button" value="弹窗" v-on:click="show">
+  <input type="button" value="简化" @click="show">
+  <input type="button" value="控制台输出" @click="console">
+
+</div>
+
+<script src="js/vue.js"></script>
+
+<script>
+  var app = new Vue({
+    el:"#app",
+    data(){
+      return {message:""};
+    },
+    methods:{
+      show(){
+        alert(this.message)
+      },
+      console(){
+          console.log(this.message)
+      }
+
+    }
+  })
+
+
+
+</script>
+
+</body>
+</html>

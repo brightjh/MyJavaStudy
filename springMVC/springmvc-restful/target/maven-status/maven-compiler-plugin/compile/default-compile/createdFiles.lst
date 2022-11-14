@@ -1,0 +1,5 @@
+top/brightzm/config/SpringmvcConfig.class
+top/brightzm/domain/Book.class
+top/brightzm/domain/User.class
+top/brightzm/controller/BookController.class
+top/brightzm/config/ServletContainersInitConfig.class

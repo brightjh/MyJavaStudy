@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--普通构造方法-->
+    <!--<bean id="bookDao" class="top.brightzm.dao.impl.BookDaoImpl" init-method="init" destroy-method="destroy"/>-->
+
+    <!--工厂方法-->
+    <!--<bean id="bookDao" class="top.brightzm.factory.BookDaoFactoryBean"/>-->
+
+    <!--UserDao-->
+
+    <!--setter注入-->
+    <!--<bean id="userDao" class="top.brightzm.dao.impl.UserDaoImpl">
+        <property name="connectionNum" value="10"/>
+        <property name="databaseName" value="mysql"/>
+    </bean>-->
+
+    <!--构造器注入-->
+    <bean id="userDao" class="top.brightzm.dao.impl.UserDaoImpl">
+        <constructor-arg name="connectionNum" value="10"/>
+        <constructor-arg name="databaseName" value="mysql"/>
+    </bean>
+
+    <!--<bean id="bookService" class="top.brightzm.service.impl.BookServiceImpl">
+        &lt;!&ndash;
+        name需要注入的属性名称
+        ref 参照哪个Bean
+        &ndash;&gt;
+        <property name="bookDao" ref="bookDao"/>
+        <property name="userDao" ref="userDao"/>
+    </bean>-->
+
+    <!--自动注入-->
+    <bean id="bookService" class="top.brightzm.service.impl.BookServiceImpl" autowire="byType"/>
+
+    <!--集合注入-->
+    <bean id="bookDao" class="top.brightzm.dao.impl.BookDaoImpl">
+        <property name="array">
+            <array>
+                <value>1</value>
+                <value>2</value>
+                <value>3</value>
+                <value>4</value>
+            </array>
+        </property>
+
+        <property name="list">
+            <list>
+                <value>java</value>
+                <value>servlet</value>
+                <value>spring</value>
+                <value>maven</value>
+            </list>
+        </property>
+
+        <property name="set">
+            <set>
+                <value>java</value>
+                <value>servlet</value>
+                <value>spring</value>
+                <value>maven</value>
+            </set>
+        </property>
+
+        <property name="map">
+            <map>
+                <entry key="country" value="china"/>
+                <entry key="province" value="anhui"/>
+                <entry key="city" value="hefei"/>
+            </map>
+        </property>
+
+        <property name="properties">
+            <props>
+                <prop key="country">china</prop>
+                <prop key="province">anhui</prop>
+                <prop key="city">hefei</prop>
+            </props>
+        </property>
+
+    </bean>
+
+</beans>

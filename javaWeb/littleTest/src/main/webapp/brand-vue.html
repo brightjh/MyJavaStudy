@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <a href="addBrand-vue.html"><input type="button" value="新增"></a><br>
+    <hr>
+    <table id="brandTable" border="1" cellspacing="0" width="100%">
+        <tr>
+            <th>序号</th>
+            <th>品牌名称</th>
+            <th>企业名称</th>
+            <th>排序</th>
+            <th>品牌介绍</th>
+            <th>状态</th>
+            <th>操作</th>
+        </tr>
+        <tr align="center" v-for="(brand,index) in brands">
+            <td>{{index + 1}}</td>
+            <td>{{brand.brandName}}</td>
+            <td>{{brand.companyName}}</td>
+            <td>{{brand.description}}</td>
+            <td>{{brand.ordered}}</td>
+            <td v-if="brand.status=1">启用</td>
+            <td v-if="brand.status=0">禁用</td>
+            <td><a href="#">修改</a> <a href="#">删除</a></td>
+        </tr>
+
+    </table>
+</div>
+
+<script src="js/vue.js"></script>
+<script src="js/axios-0.18.0.js"></script>
+
+<script>
+    var app = new Vue({
+        el: "#app",
+        data(){
+            return {
+                brands:[]
+            }
+        },
+        mounted() {
+            // 将this指定为vue对象
+            var _this = this;
+            // 发送ajax请求
+            axios({
+                method: "get",
+                url: "http://localhost:8080/littleTest/selectAllServlet"
+            }).then(function (resp) {
+                _this.brands = resp.data;
+            })
+
+        }
+
+    })
+
+
+</script>
+
+</body>
+</html>

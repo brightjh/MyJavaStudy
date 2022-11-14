@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [26/Sep/2022:23:41:30 +0800] "GET /servlet HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [26/Sep/2022:23:41:30 +0800] "GET /servlet/ HTTP/1.1" 200 52 http-bio-8080-exec-3 366
+0:0:0:0:0:0:0:1 - - [26/Sep/2022:23:41:31 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [26/Sep/2022:23:41:42 +0800] "GET /servlet HTTP/1.1" 302 - http-bio-8080-exec-5 0
+0:0:0:0:0:0:0:1 - - [26/Sep/2022:23:41:42 +0800] "GET /servlet/ HTTP/1.1" 200 52 http-bio-8080-exec-6 2
+0:0:0:0:0:0:0:1 - - [26/Sep/2022:23:41:50 +0800] "GET /servlet/a.html HTTP/1.1" 200 127 http-bio-8080-exec-7 1

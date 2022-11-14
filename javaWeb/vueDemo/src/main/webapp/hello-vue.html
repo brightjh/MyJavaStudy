@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app01">
+    {{message}}
+</div>
+
+<div id = "app02">
+    <input v-model="username">
+    {{username}}
+
+</div>
+
+<script src="js/vue.js"></script>
+
+<script>
+  var app01 = new Vue({
+      el: '#app01',
+      data: {
+          message: "hello world"
+      }
+  })
+
+  var app02 = new Vue({
+      el: '#app02',
+      data: function () {
+          return {
+              username: ""
+          }
+      }
+  })
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <p>{{count}}</p><br>
+    <input v-model="count"><br>
+    <p v-if="count==1"> if</p>
+    <p v-else-if="count==2">else-if</p>
+    <hr>
+    <p v-show="count==10">show</p>
+
+</div>
+
+<script src="js/vue.js"></script>
+<script>
+    var app = new Vue({
+        el: "#app",
+        data() {
+            return {
+                count: 1,
+                message: "我显示了出来"
+            }
+
+        }
+
+
+    })
+</script>
+
+
+</body>
+</html>

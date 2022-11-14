@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [26/Oct/2022:23:33:39 +0800] "GET /finalTest/selectAllBrand.html HTTP/1.1" 200 7159 http-bio-8080-exec-1 19
+0:0:0:0:0:0:0:1 - - [26/Oct/2022:23:33:39 +0800] "GET /finalTest/element-ui/lib/theme-chalk/index.css HTTP/1.1" 200 232460 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [26/Oct/2022:23:33:39 +0800] "GET /finalTest/js/axios-0.18.0.js HTTP/1.1" 200 12948 http-bio-8080-exec-2 2
+0:0:0:0:0:0:0:1 - - [26/Oct/2022:23:33:39 +0800] "GET /finalTest/js/vue.js HTTP/1.1" 200 341462 http-bio-8080-exec-4 3
+0:0:0:0:0:0:0:1 - - [26/Oct/2022:23:33:39 +0800] "GET /finalTest/element-ui/lib/index.js HTTP/1.1" 200 567058 http-bio-8080-exec-5 4
+0:0:0:0:0:0:0:1 - - [26/Oct/2022:23:33:39 +0800] "GET /finalTest/element-ui/lib/theme-chalk/fonts/element-icons.woff HTTP/1.1" 200 28200 http-bio-8080-exec-8 2
+0:0:0:0:0:0:0:1 - - [26/Oct/2022:23:33:39 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-10 0
+0:0:0:0:0:0:0:1 - - [26/Oct/2022:23:33:39 +0800] "GET /finalTest//SelectAllBrandServlet HTTP/1.1" 200 7330 http-bio-8080-exec-9 371
+0:0:0:0:0:0:0:1 - - [26/Oct/2022:23:52:51 +0800] "GET /finalTest/selectAllBrand.html HTTP/1.1" 304 - http-bio-8080-exec-2 3
+0:0:0:0:0:0:0:1 - - [26/Oct/2022:23:52:51 +0800] "GET /finalTest//SelectAllBrandServlet HTTP/1.1" 200 7330 http-bio-8080-exec-2 8
+0:0:0:0:0:0:0:1 - - [26/Oct/2022:23:56:43 +0800] "GET /finalTest/js/axios.min.map HTTP/1.1" 404 1003 http-bio-8080-exec-1 2

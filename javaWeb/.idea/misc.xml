@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ajaxDemo" />
+    <file type="web" url="file://$PROJECT_DIR$/brand-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/cookieDemo" />
+    <file type="web" url="file://$PROJECT_DIR$/filterDemo" />
+    <file type="web" url="file://$PROJECT_DIR$/finalTest" />
+    <file type="web" url="file://$PROJECT_DIR$/jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/littleTest" />
+    <file type="web" url="file://$PROJECT_DIR$/servlet" />
+    <file type="web" url="file://$PROJECT_DIR$/test" />
+    <file type="web" url="file://$PROJECT_DIR$/vueDemo" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/brand-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/cookieDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/filterDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/ajaxDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/littleTest/pom.xml" />
+        <option value="$PROJECT_DIR$/vueDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/finalTest/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

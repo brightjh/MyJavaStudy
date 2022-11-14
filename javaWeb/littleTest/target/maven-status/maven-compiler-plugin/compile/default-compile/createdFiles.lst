@@ -1,0 +1,6 @@
+top/brightzm/web/SelectAllServlet.class
+top/brightzm/mapper/BrandMapper.class
+top/brightzm/web/AddBrandServlet.class
+top/brightzm/pojo/Brand.class
+top/brightzm/util/SqlSessionFactoryUtils.class
+top/brightzm/service/BrandService.class

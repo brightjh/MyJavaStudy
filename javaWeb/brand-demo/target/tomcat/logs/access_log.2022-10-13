@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [13/Oct/2022:12:37:02 +0800] "GET /brand-demo/selectAllDemo HTTP/1.1" 404 999 http-bio-8080-exec-1 23
+0:0:0:0:0:0:0:1 - - [13/Oct/2022:12:37:02 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [13/Oct/2022:12:37:15 +0800] "GET /brand-demo/selectAllServlet HTTP/1.1" 500 5711 http-bio-8080-exec-3 339
+0:0:0:0:0:0:0:1 - - [13/Oct/2022:12:38:07 +0800] "GET /brand-demo/selectAllServlet HTTP/1.1" 500 5711 http-bio-8080-exec-4 15
+0:0:0:0:0:0:0:1 - - [13/Oct/2022:12:38:08 +0800] "GET /brand-demo/selectAllServlet HTTP/1.1" 500 5711 http-bio-8080-exec-5 10

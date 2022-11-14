@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:16:55:30 +0800] "GET /brand-demo HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:16:55:31 +0800] "GET /brand-demo/ HTTP/1.1" 200 877 http-bio-8080-exec-3 82
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:21:30:56 +0800] "GET /brand-demo HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:21:30:57 +0800] "GET /brand-demo/ HTTP/1.1" 200 877 http-bio-8080-exec-3 95
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:21:30:57 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:21:33:31 +0800] "GET /brand-demo/ HTTP/1.1" 200 877 http-bio-8080-exec-6 1
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:21:33:31 +0800] "GET /brand-demo/css/login.css HTTP/1.1" 200 877 http-bio-8080-exec-8 1
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:21:48:11 +0800] "GET /brand-demo/ HTTP/1.1" 200 877 http-bio-8080-exec-1 70
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:21:48:11 +0800] "GET /brand-demo/css/login.css HTTP/1.1" 200 1934 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:21:48:11 +0800] "GET /brand-demo/imgs/Desert1.jpg HTTP/1.1" 200 1631571 http-bio-8080-exec-4 13
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:21:48:30 +0800] "GET /brand-demo/login?username=zhangsan&password=123 HTTP/1.1" 500 8905 http-bio-8080-exec-5 309
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:21:49:08 +0800] "GET /brand-demo/login?username=zhangsan&password=123 HTTP/1.1" 302 - http-bio-8080-exec-2 71
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:21:49:08 +0800] "GET /brand-demo/selectAllServlet HTTP/1.1" 200 1798 http-bio-8080-exec-7 48

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <div v-for="message in messages">
+        {{message}}
+    </div>
+    <hr>
+    <div v-for="(message,i) in messages">
+        {{i}}--{{message}}
+    </div>
+
+
+
+</div>
+
+
+<script src="js/vue.js"></script>
+
+<script>
+    var app = new Vue({
+        el: "#app",
+        data() {
+            return {
+                messages: ["hello world", "hello js", "hello vue", "I want change the world with coders all over the world"]
+            }
+        }
+    })
+</script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--定时切换图片-->
+<img id="myImage" src="../images/off.gif">
+
+
+<script>
+    function on() {
+        document.getElementById('myImage').src = '../images/on.gif';
+    }
+
+    function off() {
+        document.getElementById('myImage').src = '../images/off.gif'
+    }
+
+    let x = 1;
+    setInterval(function () {
+        if (x % 2 === 0) {
+            on();
+        } else {
+            off();
+        }
+        x++;
+        console.log(x);
+    },1000)
+
+</script>
+
+
+</body>
+</html>

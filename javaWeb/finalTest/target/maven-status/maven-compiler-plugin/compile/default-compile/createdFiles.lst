@@ -1,0 +1,12 @@
+top/brightzm/web/servlet/BaseServlet.class
+top/brightzm/web/SelectAllServlet.class
+top/brightzm/web/UpdateServlet.class
+top/brightzm/mapper/BrandMapper.class
+top/brightzm/pojo/PageBean.class
+top/brightzm/pojo/Brand.class
+top/brightzm/web/AddServlet.class
+top/brightzm/web/SelectByIdServlet.class
+top/brightzm/service/impl/BrandServiceImpl.class
+top/brightzm/web/servlet/BrandServlet.class
+top/brightzm/util/SqlSessionFactoryUtils.class
+top/brightzm/service/BrandService.class

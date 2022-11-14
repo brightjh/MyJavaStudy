@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+方式一：<br>
+<input type="button" onclick="on()" value="方式一"><br>
+
+方式二：<br>
+<input type="button" id="btn" value="方式二"><br>
+
+验证：<br>
+<form id="register" action="#">
+<input type="text" name="name">
+<input type="submit" id="sub">
+</form>
+
+
+<script>
+    function on() {
+        alert("点击了一下");
+    }
+
+    document.getElementById("btn").onclick = function (){
+        alert("点击了一下");
+    };
+
+    document.getElementById("register").onsubmit = function (){
+        return false;
+    }
+
+</script>
+
+
+</body>
+</html>
