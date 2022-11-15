@@ -2,9 +2,11 @@
 /home/bright/IdeaProjects/springMVC/springmvc_ssm/src/main/java/top/brightzm/config/ServletConfig.java
 /home/bright/IdeaProjects/springMVC/springmvc_ssm/src/main/java/top/brightzm/service/BookService.java
 /home/bright/IdeaProjects/springMVC/springmvc_ssm/src/main/java/top/brightzm/config/MybatisConfig.java
+/home/bright/IdeaProjects/springMVC/springmvc_ssm/src/main/java/top/brightzm/controller/Result.java
 /home/bright/IdeaProjects/springMVC/springmvc_ssm/src/main/java/top/brightzm/config/SpringmvcConfig.java
 /home/bright/IdeaProjects/springMVC/springmvc_ssm/src/main/java/top/brightzm/service/impl/BookServiceImpl.java
 /home/bright/IdeaProjects/springMVC/springmvc_ssm/src/main/java/top/brightzm/domain/Book.java
+/home/bright/IdeaProjects/springMVC/springmvc_ssm/src/main/java/top/brightzm/controller/Code.java
 /home/bright/IdeaProjects/springMVC/springmvc_ssm/src/main/java/top/brightzm/config/SpringConfig.java
 /home/bright/IdeaProjects/springMVC/springmvc_ssm/src/main/java/top/brightzm/controller/BookController.java
 /home/bright/IdeaProjects/springMVC/springmvc_ssm/src/main/java/top/brightzm/config/JdbcConfig.java

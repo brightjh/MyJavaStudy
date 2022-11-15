@@ -20,30 +20,43 @@ public class BookController {
     private BookService bookService;
 
     @GetMapping
-    public List<Book> selectAll(){
+    public Result getAll() {
         List<Book> books = bookService.selectAll();
-        return books;
+        Integer code = books != null ? Code.GET_OK : Code.GET_ERR;
+        String msg = books != null ? "" : "获取信息失败,请重试";
+        return new Result(code, books, msg);
     }
 
     @GetMapping("/{id}")
-    public Book selectById(@PathVariable Integer id){
+    public Result getById(@PathVariable Integer id) {
         Book book = bookService.selectById(id);
-        return book;
+        Integer code = book != null ? Code.GET_OK : Code.GET_ERR;
+        String msg = book != null ? "" : "获取信息失败,请重试";
+        return new Result(code, book, msg);
     }
 
     @PostMapping
-    public void add(@RequestBody Book book){
+    public Result add(@RequestBody Book book) {
         boolean flag = bookService.add(book);
+        Integer code = flag ? Code.ADD_OK : Code.ADD_ERR;
+        String msg = flag ? "" : "添加失败,请重试";
+        return new Result(code, msg);
     }
 
     @PutMapping
-    public void update(@RequestBody Book book){
+    public Result update(@RequestBody Book book) {
         boolean flag = bookService.update(book);
+        Integer code = flag ? Code.UPDATE_OK : Code.UPDATE_ERR;
+        String msg = flag ? "" : "修改失败,请重试";
+        return new Result(code, msg);
     }
 
     @DeleteMapping("/{id}")
-    public void delete(@PathVariable Integer id){
+    public Result delete(@PathVariable Integer id) {
         boolean flag = bookService.del(id);
+        Integer code = flag ? Code.DEL_OK : Code.DEL_ERR;
+        String msg = flag ? "" : "删除失败,请重试";
+        return new Result(code,msg);
     }
 
 }
