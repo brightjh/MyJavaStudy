@@ -39,24 +39,21 @@ public class BookController {
     public Result add(@RequestBody Book book) {
         boolean flag = bookService.add(book);
         Integer code = flag ? Code.ADD_OK : Code.ADD_ERR;
-        String msg = flag ? "" : "添加失败,请重试";
-        return new Result(code, msg);
+        return new Result(code, flag);
     }
 
     @PutMapping
     public Result update(@RequestBody Book book) {
         boolean flag = bookService.update(book);
         Integer code = flag ? Code.UPDATE_OK : Code.UPDATE_ERR;
-        String msg = flag ? "" : "修改失败,请重试";
-        return new Result(code, msg);
+        return new Result(code, flag);
     }
 
     @DeleteMapping("/{id}")
     public Result delete(@PathVariable Integer id) {
         boolean flag = bookService.del(id);
         Integer code = flag ? Code.DEL_OK : Code.DEL_ERR;
-        String msg = flag ? "" : "删除失败,请重试";
-        return new Result(code,msg);
+        return new Result(code, flag);
     }
 
 }
