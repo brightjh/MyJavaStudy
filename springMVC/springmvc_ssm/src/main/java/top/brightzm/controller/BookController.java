@@ -2,6 +2,8 @@ package top.brightzm.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import top.brightzm.BusinessException;
+import top.brightzm.SystemException;
 import top.brightzm.domain.Book;
 import top.brightzm.service.BookService;
 
@@ -29,6 +31,10 @@ public class BookController {
 
     @GetMapping("/{id}")
     public Result getById(@PathVariable Integer id) {
+        if (id < 0) {
+            throw new BusinessException(Code.BUSINESS_EX, "操作不规范");
+        }
+
         Book book = bookService.selectById(id);
         Integer code = book != null ? Code.GET_OK : Code.GET_ERR;
         String msg = book != null ? "" : "获取信息失败,请重试";

@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
  * @time: 2022/11/11 下午7:09
  */
 @Configuration
-@ComponentScan("top.brightzm.controller")
+@ComponentScan({"top.brightzm.controller","top.brightzm.config"})
 @EnableWebMvc
 public class SpringmvcConfig {
 }

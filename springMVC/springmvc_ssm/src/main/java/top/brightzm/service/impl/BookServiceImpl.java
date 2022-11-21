@@ -2,6 +2,8 @@ package top.brightzm.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import top.brightzm.SystemException;
+import top.brightzm.controller.Code;
 import top.brightzm.dao.BookDao;
 import top.brightzm.domain.Book;
 import top.brightzm.service.BookService;
@@ -28,6 +30,12 @@ public class BookServiceImpl implements BookService {
     @Override
     public Book selectById(Integer id) {
         Book book = bookDao.selectById(id);
+        // 模拟异常
+        /*try {
+            int i = 1 / 0;
+        } catch (Exception e) {
+            throw new SystemException(Code.SYSTEM_TIMEOUT_EX, "访问超时,请重试", e);
+        }*/
         return book;
     }
 
