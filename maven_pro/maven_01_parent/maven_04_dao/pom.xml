@@ -11,5 +11,13 @@
 
     <artifactId>maven_04_dao</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>top.brightzm</groupId>
+            <artifactId>maven_05_pojo</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
