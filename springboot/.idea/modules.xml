@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/springboot_01_quicklystart/springboot_01_quicklystart.iml" filepath="$PROJECT_DIR$/springboot_01_quicklystart/springboot_01_quicklystart.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_02_mybatis/springboot_02_mybatis.iml" filepath="$PROJECT_DIR$/springboot_02_mybatis/springboot_02_mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_03_completion/springboot_03_completion.iml" filepath="$PROJECT_DIR$/springboot_03_completion/springboot_03_completion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_04_mybatisPlus/springboot_04_mybatisPlus.iml" filepath="$PROJECT_DIR$/springboot_04_mybatisPlus/springboot_04_mybatisPlus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_05_generator/springboot_05_generator.iml" filepath="$PROJECT_DIR$/springboot_05_generator/springboot_05_generator.iml" />
     </modules>
   </component>
 </project>

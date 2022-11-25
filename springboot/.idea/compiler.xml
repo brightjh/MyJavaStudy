@@ -2,19 +2,24 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot_03_completion" />
+        <module name="springboot_04_mybatisPlus" />
         <module name="springboot_01_quicklystart" />
         <module name="springboot_02_mybatis" />
+        <module name="springboot_05_generator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot_01_quicklystart" target="1.8" />
       <module name="springboot_02_mybatis" target="1.8" />
       <module name="springboot_03_completion" target="1.8" />
+      <module name="springboot_04_mybatisPlus" target="1.8" />
+      <module name="springboot_05_generator" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -22,6 +27,8 @@
       <module name="springboot_01_quicklystart" options="-parameters" />
       <module name="springboot_02_mybatis" options="-parameters" />
       <module name="springboot_03_completion" options="-parameters" />
+      <module name="springboot_04_mybatisPlus" options="-parameters" />
+      <module name="springboot_05_generator" options="-parameters" />
     </option>
   </component>
 </project>
