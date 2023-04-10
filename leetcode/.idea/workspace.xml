@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1dc67c47-7a1b-4daa-b05f-f5e0875444d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../javaStudy-stageOne/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaStudy-stageOne/mymap/mymap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaStudy-stageOne/mymap/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaStudy-stageOne/mymap/src/top/brightzm/ergodic/MapDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaStudy-stageOne/mymap/src/top/brightzm/ergodic/MapDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaStudy-stageOne/mymap/src/top/brightzm/ergodic/MapDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaStudy-stageOne/mymap/src/top/brightzm/hashMapDemo/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaStudy-stageOne/mymap/src/top/brightzm/hashMapDemo/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaStudy-stageOne/mymap/src/top/brightzm/hashMapDemo/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaStudy-stageOne/out/production/mymap/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaStudy-stageOne/out/production/mymap/top/brightzm/ergodic/MapDemo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaStudy-stageOne/out/production/mymap/top/brightzm/ergodic/MapDemo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaStudy-stageOne/out/production/mymap/top/brightzm/ergodic/MapDemo3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaStudy-stageOne/out/production/mymap/top/brightzm/hashMapDemo/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaStudy-stageOne/out/production/mymap/top/brightzm/hashMapDemo/Test2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaStudy-stageOne/out/production/mymap/top/brightzm/hashMapDemo/domain/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/algorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaStudy-stageOne/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaStudy-stageOne/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaStudy-stageOne/otherDay/src/top/brightzm/MapDemo/A01MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaStudy-stageOne/otherDay/src/top/brightzm/MapDemo/A01MapDemo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IANwrYf80P2pI5SpfW7nsBKzCT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.TwoSum">
+    <configuration name="Insert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.bianrySearch.Insert" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.bianrySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.doubleCur.MoveZeroes" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.doubleCur.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.doubleCur.Solution" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.doubleCur.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortedSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.doubleCur.SortedSquares" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.doubleCur.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.doubleCur.TwoSum" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.doubleCur.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.MoveZeroes" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.SortedSquares" />
+        <item itemvalue="Application.Insert" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1dc67c47-7a1b-4daa-b05f-f5e0875444d3" name="Changes" comment="" />
+      <created>1669620671398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669620671398</updated>
+      <workItem from="1669620672773" duration="12535000" />
+      <workItem from="1669649813066" duration="4562000" />
+      <workItem from="1669732628353" duration="2163000" />
+      <workItem from="1669794418866" duration="12290000" />
+      <workItem from="1669906973081" duration="638000" />
+      <workItem from="1669990756255" duration="61000" />
+      <workItem from="1669990825501" duration="1544000" />
+      <workItem from="1673579240192" duration="20000" />
+      <workItem from="1679403617179" duration="37000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
