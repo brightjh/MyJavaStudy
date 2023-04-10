@@ -17,6 +17,10 @@
       <module fileurl="file://$PROJECT_DIR$/day21-code/day21-code.iml" filepath="$PROJECT_DIR$/day21-code/day21-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/girlFriend/girlFriend.iml" filepath="$PROJECT_DIR$/girlFriend/girlFriend.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaStudy-stageOne.iml" filepath="$PROJECT_DIR$/javaStudy-stageOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myExceptionAndFIle/myExceptionAndFIle.iml" filepath="$PROJECT_DIR$/myExceptionAndFIle/myExceptionAndFIle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myMethod/myMethod.iml" filepath="$PROJECT_DIR$/myMethod/myMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myStream/myStream.iml" filepath="$PROJECT_DIR$/myStream/myStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymap/mymap.iml" filepath="$PROJECT_DIR$/mymap/mymap.iml" />
       <module fileurl="file://$PROJECT_DIR$/otherDay/otherDay.iml" filepath="$PROJECT_DIR$/otherDay/otherDay.iml" />
       <module fileurl="file://$PROJECT_DIR$/reflection_demo/reflection_demo.iml" filepath="$PROJECT_DIR$/reflection_demo/reflection_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread-demo/thread-demo.iml" filepath="$PROJECT_DIR$/thread-demo/thread-demo.iml" />
