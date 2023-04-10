@@ -1,4 +1,4 @@
-package top.brightzm.Demo.domain;
+package top.brightzm.demo.domain;
 
 /**
  * @description:

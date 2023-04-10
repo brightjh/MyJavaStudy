@@ -1,4 +1,4 @@
-package top.brightzm.Demo;
+package top.brightzm.demo;
 
 import java.util.ArrayList;
 import java.util.Collections;

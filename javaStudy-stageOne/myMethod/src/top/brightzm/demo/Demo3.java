@@ -1,6 +1,6 @@
-package top.brightzm.Demo;
+package top.brightzm.demo;
 
-import top.brightzm.Demo.domain.Users;
+import top.brightzm.demo.domain.Users;
 
 import java.util.ArrayList;
 import java.util.Collections;
