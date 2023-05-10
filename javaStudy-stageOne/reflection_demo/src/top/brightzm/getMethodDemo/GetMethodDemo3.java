@@ -11,7 +11,7 @@ public class GetMethodDemo3 {
 
     public static void main(String[] args)throws Exception {
         //1. newInstance方法 不适用
-        Person p = Person.class.newInstance();
+        Phone p = Phone.class.newInstance();
         // 只能调用public修饰的空参构造
 
         //2. 获取constructor 对象

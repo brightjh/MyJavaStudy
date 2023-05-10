@@ -9,7 +9,7 @@ import java.lang.reflect.Method;
  */
 public class GetMethodDemo1 {
     public static void main(String[] args) throws NoSuchMethodException{
-        Class stuClass = Student.class;
+        Class stuClass = Phone.class;
         // 获取public方法getSource,传参String
         Method getSource = stuClass.getMethod("getSource", String.class);
         System.out.println(getSource);
@@ -24,7 +24,7 @@ public class GetMethodDemo1 {
 
 }
 
-class Student extends Person{
+class Student extends Phone {
     public int getSource(String type){
         return 99;
     }

@@ -29,7 +29,7 @@ public class GetMethodDemo2 {
 
         // 调用非public方法
 
-        Dog d = new Dog();
+        Phone d = new Phone();
 
         Method m = d.getClass().getDeclaredMethod("setName", String.class);
 
@@ -37,7 +37,7 @@ public class GetMethodDemo2 {
 
         m.invoke(d,"屁屁");
 
-        System.out.println(d.getName());
+        // System.out.println(d.getName());
 
 
     }
