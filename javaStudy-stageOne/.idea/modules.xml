@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/myIO/myIO.iml" filepath="$PROJECT_DIR$/myIO/myIO.iml" />
       <module fileurl="file://$PROJECT_DIR$/myMethod/myMethod.iml" filepath="$PROJECT_DIR$/myMethod/myMethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/myStream/myStream.iml" filepath="$PROJECT_DIR$/myStream/myStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myThread/myThread.iml" filepath="$PROJECT_DIR$/myThread/myThread.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymap/mymap.iml" filepath="$PROJECT_DIR$/mymap/mymap.iml" />
       <module fileurl="file://$PROJECT_DIR$/otherDay/otherDay.iml" filepath="$PROJECT_DIR$/otherDay/otherDay.iml" />
       <module fileurl="file://$PROJECT_DIR$/reflection_demo/reflection_demo.iml" filepath="$PROJECT_DIR$/reflection_demo/reflection_demo.iml" />
